@@ -1,20 +1,26 @@
-import Button from "../ui/Button";
-
 const CTA = () => {
   return (
-    <section className="bg-gray-50 text-center py-24 px-6">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 px-4 bg-[#f5f5f5]">
+      <div className="max-w-4xl mx-auto">
         
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
-          Ready to Start Your Career?
-        </h2>
+        <div className="bg-[#1E78A8] text-white rounded-xl px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          
+          {/* Text */}
+          <div>
+            <h2 className="text-xl md:text-2xl font-semibold mb-2">
+              Ready to Launch Your Career?
+            </h2>
 
-        <p className="mb-6 text-gray-600 max-w-xl mx-auto">
-          Join thousands of job seekers today.
-        </p>
+            <p className="text-sm text-blue-100">
+              Join 10,000+ professionals who found their dream jobs through zecpath
+            </p>
+          </div>
 
-        <div className="flex justify-center">
-          <Button text="Sign Up Now" />
+          {/* Button */}
+          <button className="bg-gray-200 text-black px-5 py-2 rounded-lg text-sm font-medium hover:bg-white transition">
+            Create your Profile
+          </button>
+
         </div>
 
       </div>

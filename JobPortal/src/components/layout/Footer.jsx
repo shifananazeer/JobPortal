@@ -1,25 +1,24 @@
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-gray-300 py-10">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+    <footer className="bg-[#0D1855] text-gray-300 py-4">
+      <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
         
-        <h2 className="text-xl font-semibold text-white mb-2">
-          JobPortal
-        </h2>
+        {/* Left */}
+        <p>© 2026 JobPortal</p>
 
-        <p className="mb-4 text-gray-400">
-          Find your dream job with us.
-        </p>
-
-        <div className="flex justify-center gap-6 mb-4 text-sm">
+        {/* Middle Links */}
+        <div className="flex flex-wrap justify-center gap-4">
           <span className="hover:text-white cursor-pointer">About</span>
-          <span className="hover:text-white cursor-pointer">Jobs</span>
-          <span className="hover:text-white cursor-pointer">Contact</span>
+          <span className="hover:text-white cursor-pointer">Accessibility</span>
+          <span className="hover:text-white cursor-pointer">User Agreement</span>
+          <span className="hover:text-white cursor-pointer">Privacy Policy</span>
+          <span className="hover:text-white cursor-pointer">Cookie Policy</span>
         </div>
 
-        <p className="text-xs text-gray-500">
-          © 2026 JobPortal. All rights reserved.
-        </p>
+        {/* Right */}
+        <div className="flex gap-3">
+          <span className="hover:text-white cursor-pointer">English</span>
+        </div>
 
       </div>
     </footer>
